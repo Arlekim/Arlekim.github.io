@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arlen's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Arlen's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#resume">Currículo</a></li>
+                <li><a href="#courses">Cursos</a></li>
+                <li><a href="#social">Redes sociais</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao meu Portfólio</h2>
+            <p>Explore meu trabalho e minhas habilidades!</p>
+            <button class="nav-button" data-target="#about">Sobre mim</button>
+            <button class="nav-button" data-target="#resume">Currículo</button>
+            <button class="nav-button" data-target="#courses">Cursos</button>
+            <button class="nav-button" data-target="#social">Redes sociais</button>
+            <button class="nav-button" data-target="#contact">Contato</button>
+        </section>
+
+        <section id="about">
+            <h2><i class="fas fa-user"></i> Sobre mim</h2>
+            <p>Descrição sobre você.</p>
+        </section>
+
+        <section id="resume">
+            <h2><i class="fas fa-file-alt"></i> Currículo</h2>
+            <p>Detalhes do seu currículo.</p>
+        </section>
+
+        <section id="courses">
+            <h2><i class="fas fa-graduation-cap"></i> Cursos</h2>
+            <p>Informações sobre cursos que você fez.</p>
+        </section>
+
+        <section id="social">
+            <h2><i class="fas fa-share-alt"></i> Redes sociais</h2>
+            <p>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2><i class="fas fa-envelope"></i> Contato</h2>
+            <p>Formulário de contato ou informações de contato.</p>
+        </section>
+    </main>
+
+    <footer>
+        <button id="developer-button">Desenvolvedor</button>
+        <div id="developer-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Login de Desenvolvedor</h2>
+                <form id="developer-form">
+                    <input type="password" id="developer-password" placeholder="Senha">
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
